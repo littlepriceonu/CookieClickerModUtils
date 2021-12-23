@@ -17,3 +17,10 @@
             }
         }
     }, 10)
+    ModUtils.addObjectAmount = (object, amount) => {
+        Game.Objects[object].amount += amount
+    }
+
+    ModUtils.setObjectAmount = (object, amount) => {
+        Game.Objects[object].amount = amount
+    }
